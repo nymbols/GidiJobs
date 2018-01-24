@@ -116,7 +116,7 @@ div#headerBlock span#mainLogo
     position: relative;
     margin: 0 auto -5 auto;
     text-align: center;
-    font: normal normal bold 48px veranda, Helvetica Neue, sans-serif;
+    font: normal normal bold 48px Helvetica Neue, Helvetica, sans-serif;
 }
 
 div#headerBlock span#subMainLogo
@@ -125,7 +125,7 @@ div#headerBlock span#subMainLogo
     position: relative;
     margin: 0 auto -5 auto;
     text-align: center;
-    font: normal normal bold 18px veranda, Helvetica Neue, sans-serif;
+    font: normal normal bold 18px Helvetica Neue, Helvetica, sans-serif;
 }
 
 div#login

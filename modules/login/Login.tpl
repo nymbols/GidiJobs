@@ -16,12 +16,10 @@
   <img src="images/lagos.jpg" alt="lagos skyline">
 </div>    
 <?php TemplateUtility::printPopupContainer(); ?>
-<!--       <div id="headerBlock"> 
+       <div id="headerBlock"> 
             <span id="mainLogo">gidijobs</span><br /> 
              <span id="subMainLogo">Recruitement Portal</span> 
-       </div> -->
-<p>
-	&nbsp;</p>
+       </div> 
 <p>
 	&nbsp;</p>
 <p>

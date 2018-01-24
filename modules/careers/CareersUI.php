@@ -884,6 +884,16 @@ class CareersUI extends UserInterface
                         $content
                     );
 
+                    $content = sprintf(
+                        '<form name="login" id="login" method="post" onsubmit="return validateCandidateRegistration()" '
+                        . 'action="%s?postback=yes">',
+                        CATSUtility::getIndexName()
+                    ) . $content . '<script>enableFormFields(true);</script></form>
+
+                    <form name="register" id="register" method="post" onsubmit="return validateCandidateRegistration11()" action="index.php?m=careers&p=applyToJob&ID=1">
+                    Or Enter Email Here To Register
+                    <input type="email" name="email">
+                    <input type="submit" value="Register"></form>';
                     // Insert the form block
                     $content = sprintf(
                         '<form name="login" id="login" method="post" onsubmit="return validateCandidateRegistration()" '
