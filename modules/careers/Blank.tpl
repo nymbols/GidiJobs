@@ -17,7 +17,7 @@
         <?php endif; ?>
         <style type="text/css" media="all">
             <?php echo($this->template['CSS']); ?>
-			#poweredCATS { clear: both; margin: 30px auto; clear: both; width: 140px; height: 40px; border: none;}
+			#poweredCATS { clear: both; margin: 50px auto; clear: both; width: 140px; height: 40px; border: none;}
 			#poweredCATS img { border: none; }
         </style>
     </head>

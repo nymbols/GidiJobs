@@ -352,7 +352,7 @@ class CareersUI extends UserInterface
             // Process html-ish fields like <input-firstName> into the proper form
             $content = preg_replace(
                 '/\<input\-([A-Za-z0-9]+)\>/',
-                '<input type="text" class="inputBoxNormal" style="width: 270px;" name="$1" id="$1" onfocus="onFocusFormField(this)" />',
+                '<input type="text" class="inputBoxNormal" style="width: 270px;height:25px; border-radius:10px" name="$1" id="$1" onfocus="onFocusFormField(this)" />',
                 $content
             );
 
@@ -880,7 +880,7 @@ class CareersUI extends UserInterface
                     // Process html-ish fields like <input-firstName> into the proper form
                     $content = preg_replace(
                         '/\<input\-([A-Za-z0-9]+)\>/',
-                        '<input type="text" class="inputBoxNormal" style="width: 270px;" name="$1" id="$1" onfocus="onFocusFormField(this)" />',
+                        '<input type="text" class="inputBoxNormal" style="width: 270px;height:25px; border-radius:10px" name="$1" id="$1" onfocus="onFocusFormField(this)" />',
                         $content
                     );
 
@@ -891,9 +891,9 @@ class CareersUI extends UserInterface
                     ) . $content . '<script>enableFormFields(true);</script></form>
 
                     <form name="register" id="register" method="post" onsubmit="return validateCandidateRegistration11()" action="index.php?m=careers&p=applyToJob&ID=1">
-                    Or Enter Email Here To Register
-                    <input type="email" name="email">
-                    <input type="submit" value="Register"></form>';
+                    <h1>Sign up</h1>
+                    <input type="email" name="email" style="width: 270px;height:25px; border-radius:10px" placeholder="youremail@example.com">
+                    <input type="submit" value="Register" style="height:25px;"></form>';
                     // Insert the form block
                     $content = sprintf(
                         '<form name="login" id="login" method="post" onsubmit="return validateCandidateRegistration()" '
