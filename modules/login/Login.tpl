@@ -17,8 +17,8 @@
 </div>    
 <?php TemplateUtility::printPopupContainer(); ?>
        <div id="headerBlock"> 
-            <span id="mainLogo">gidijobs</span><br /> 
-             <span id="subMainLogo">Recruitement Portal</span> 
+            <a href="\gidijobs"><span id="mainLogo">gidijobs</span></a><br /> 
+             <span id="subMainLogo">Admin Login</span> 
        </div> 
 <p>
 	&nbsp;</p>
